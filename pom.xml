@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>new1.html</groupId>
+    <artifactId>new1.html</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+</project>
+
+
+<html>
+
+<head>
+    <title>
+        Добро пожаловать на вєб-страницу
+    </title>
+    <style>
+        body
+        {background:url(picturere.png);
+        background-size:100%;}
+
+        button
+        {background-color:#08c5d1;
+        border-width:3px;
+        border-color:black;
+        width:180px;
+        height:45px;
+        margin-top:35px;
+        border-radius:50px 20px 50px 20px;
+        font-weight:bold;
+        font-family:sans-serif;
+        color:white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.9);
+        opacity: 0.9;}
+
+        button:focus{outline:none;}
+
+        button:hover
+        {background-color:hsl(0, 0%, 14%);}
+
+
+        h1{background-color:#00353f
+        ;
+        opacity: 0.9;
+        width:1350px; height:65px;
+        margin-left:0px; border-radius:20px 5px 20px 5px;}
+
+
+
+    </style>
+</head>
+
+
+
+<body>
+
+    <h1>
+        <button style="margin-left:100px;">LEFT</button>
+        <button style="margin-left:25px;">MIN</button>
+        <button style="margin-left:25px;">CENTRAL</button>
+        <button style="margin-left:25px;">MAX</button>
+        <button style="margin-left:25px;">RIGHT</button>
+    </h1>
+
+
+
+
+</body>
+</html>
